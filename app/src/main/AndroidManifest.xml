@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.badlogic.androidgames"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+  
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:hardwareAccelerated = "true">
+        <activity
+            android:name="com.badlogic.androidgames.AndroidBasicsStarter"
+            android:label="@string/app_name" >
+           
+
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.LifeCycleTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Life Cycle Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.SingleTouchTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Single Touch Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.MultiTouchTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Multi Touch Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.KeyTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Key Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.AccelerometerTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Accelerometer Test" >
+        </activity>
+          <activity
+            android:name="com.badlogic.androidgames.AssetsTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Assets Test" >
+        </activity>
+         <activity
+            android:name="com.badlogic.androidgames.SoundPoolTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Sound pool Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.MediaPlayerTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Media player Test" >
+        </activity>
+         <activity
+            android:name="com.badlogic.androidgames.FullScreenTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="FullScreen Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.RenderViewTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Render View Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.ShapeTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Shape Test" >
+        </activity>
+         <activity
+            android:name="com.badlogic.androidgames.BitmapTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Bitmap Test" >
+        </activity>
+         <activity
+            android:name="com.badlogic.androidgames.SurfaceViewTest"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="Surface View Test" >
+        </activity>
+        <activity
+            android:name="com.badlogic.androidgames.About"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:label="About" >
+        </activity>
+    </application>
+
+</manifest>
